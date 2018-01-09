@@ -20,7 +20,11 @@ public class League {
         }
     }
 
-    public League() { }
+  public SeasonConfiguration.LeagueConfiguration getLeagueConfig() {
+    return leagueConfig;
+  }
+
+  public League() { }
 
     public boolean validateLeague() {
         for (Division division : divisions) {

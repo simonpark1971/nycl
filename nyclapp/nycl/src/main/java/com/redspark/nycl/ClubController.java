@@ -23,6 +23,13 @@ public class ClubController {
     return new ResponseEntity(clubService.getClubList(), HttpStatus.OK);
   }
 
+
+  @GetMapping(value = "/status")
+  @CrossOrigin(origins = "*")
+  public ResponseEntity getStatus(@RequestParam(name = "clubName") String clubName) {
+    return new ResponseEntity(clubService.getClub(clubName).getApplicationStatus(), HttpStatus.OK);
+  }
+
   @GetMapping(value = "/getclub")
   @CrossOrigin(origins = "*")
   public ResponseEntity getClub(@RequestParam(name = "clubName") String clubName) {

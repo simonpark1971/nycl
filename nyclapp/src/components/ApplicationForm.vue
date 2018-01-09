@@ -13,6 +13,11 @@
       <p>Something went wrong saving your application.</p>
     </div>
 
+    <div v-if="application.club.applicationStatus === 'complete'" class="alert alert-danger" role="alert">
+      <h4 class="alert-heading">Application Complete</h4>
+      <p>You can't make changes to a complete application.</p>
+    </div>
+
     <h2>{{getClubName}}</h2>
     <form>
       <h2 class="form-signin-heading">NYCL Application Form {{season}}</h2>
@@ -118,7 +123,7 @@
         </div>
       </div>
 
-      <div class="form-group">
+      <div class="form-group" v-if="application.club.applicationStatus !== 'complete'">
         <b-btn variant="outline-success"  class="btn" type="button" v-on:click='saveOnSubmit'>Save</b-btn>
       </div>
 

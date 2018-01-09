@@ -52,8 +52,6 @@ public class ApplicationFormController {
     return "registered";
   }
 
-
-
   @POST
   @Consumes(MediaType.APPLICATION_FORM_URLENCODED)
   @Path("main")

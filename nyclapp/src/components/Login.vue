@@ -3,6 +3,8 @@
 
     <img src="../assets/nyclogo4.jpg" class="img-circle" />
 
+    <div><ring-loader :loading="loading"></ring-loader></div>
+
     <form>
       <div class="form-group">
         <label for="exampleInputEmail1">Username</label>
@@ -24,6 +26,10 @@
     name: 'loginForm',
     data () {
       return {
+        loading: false,
+        color: 'red',
+        size: '15px',
+        radius: '100%',
         username: '',
         password: '',
         loginErrorMessageShown: false
@@ -33,6 +39,7 @@
     methods: {
       doLogin () {
         var self = this
+        this.loading = true
         this.$store.dispatch('login', {
           username: this.username,
           password: this.password

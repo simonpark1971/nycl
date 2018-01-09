@@ -13,6 +13,11 @@
       <p>Something went wrong saving your team.</p>
     </div>
 
+    <div v-if="status === 'complete'" class="alert alert-danger" role="alert">
+      <h4 class="alert-heading">Application Complete</h4>
+      <p>You can't make changes to a complete application.</p>
+    </div>
+
     <form class="form-add-team" id="addTeamFrm">
       <h2>{{getClubName}}</h2>
       <h3>Add Team {{ageGroup}}</h3>
@@ -21,13 +26,13 @@
         <select class="form-control" v-model="team.ageGroup" id="ageGroupSelect" name="ageGroupSelect">
           <option>Under10</option>
           <option>Under11</option>
-          <option>Under13_8s</option>
+          <option>Under13_8S</option>
           <option>Under12</option>
           <option>Under13</option>
-          <option>Under15_8s</option>
+          <option>Under15_8S</option>
           <option>Under14</option>
           <option>Under15</option>
-          <option>Girls</option>
+          <option>GIRLS</option>
         </select>
       </div>
 
@@ -86,7 +91,7 @@
         <input v-model="team.secondaryContact.contactEmail" type="email" id="secondContactEmail" name="secondContactEmail" class="form-control" placeholder="Email">
       </p>
 
-      <div class="form-group">
+      <div class="form-group" v-if="status !== 'complete'">
         <b-btn variant="outline-success"  class="btn" type="button" v-on:click='saveOnSubmit' id="submitAndMore">Add</b-btn>
       </div>
     </form>
@@ -105,6 +110,7 @@
         ageGroup: '',
         saved: false,
         error: false,
+        status: 'open',
         team: {
           clubName: this.$store.getters.getClub,
           ageGroup: '',
@@ -135,6 +141,13 @@
           }
         }
       }
+    },
+
+    mounted: function () {
+      var self = this
+      axios.get('http://localhost:8081/status?clubName=' + this.$store.getters.getClub).then(function (response) {
+        self.status = response.data
+      })
     },
 
     methods: {

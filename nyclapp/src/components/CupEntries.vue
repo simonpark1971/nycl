@@ -3,6 +3,11 @@
 
     <img src="../assets/nyclogo4.jpg" class="img-circle" />
 
+    <div v-if="club.applicationStatus === 'complete'" class="alert alert-danger" role="alert">
+      <h4 class="alert-heading">Application Complete</h4>
+      <p>You can't make changes to a complete application.</p>
+    </div>
+
     <div v-if="cupsEntered" class="alert alert-success" role="alert">
       <h4 class="alert-heading">Success!</h4>
       <p>You have successfully submitted your cup entries</p>
@@ -23,7 +28,7 @@
         </div>
       </div>
 
-      <b-btn variant="outline-success" type="button" v-on:click='doSaveClub' id="login" name="login" class="btn btn-default">Submit</b-btn>
+      <b-btn v-if="club.applicationStatus !== 'complete'" variant="outline-success" type="button" v-on:click='doSaveClub' id="login" name="login" class="btn btn-default">Submit</b-btn>
     </form>
   </div>
 </template>

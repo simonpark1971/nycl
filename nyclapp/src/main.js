@@ -19,9 +19,12 @@ import 'bootstrap-vue/dist/bootstrap-vue.css'
 import Vuex from 'vuex'
 import axios from 'axios'
 import CupEntries from './components/CupEntries'
+import RingLoader from 'vue-spinner/src/RingLoader.vue'
 
 Vue.use(BootstrapVue)
 Vue.use(VueRouter)
+
+Vue.component('RingLoader', RingLoader)
 
 const routes = [
 
@@ -41,7 +44,7 @@ const routes = [
 
   { path: '/LeagueList', component: LeagueList, meta: {requiresLogin: true} },
 
-  { path: '/League', component: League, meta: {requiresLogin: true} },
+  { path: '/League', name: 'league', component: League, meta: {requiresLogin: true} },
 
   { path: '/LoginForm', component: LoginForm, name: 'login' },
 

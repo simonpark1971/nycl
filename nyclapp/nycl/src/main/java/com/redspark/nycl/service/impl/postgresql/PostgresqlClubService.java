@@ -20,9 +20,16 @@ public class PostgresqlClubService implements ClubService {
   @Override
   public void store(Club club) {
 
-    Club storedClub = getClub(club.getClubName());
-    if (null != storedClub) {
-      club.setId(storedClub.getId());
+    if(club.getId() == null) {
+      Club storedClub = getClub(club.getClubName());
+      if (null != storedClub) {
+        club.setId(storedClub.getId());
+      }
+    }
+
+    // because we're ignoring the cyclic nature for json
+    for (Team team : club.getClubTeams()) {
+      team.setClub(club);
     }
 
     if (club.getMainContact().getUsername() == null || club.getMainContact().getUsername().isEmpty()) {

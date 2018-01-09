@@ -11,10 +11,11 @@
         <th>Club Name</th>
         <th>Main Contact</th>
         <th>Main Contact Email</th>
+        <th>Status</th>
       </tr>
       </thead>
       <tbody>
-      <tr v-for="item in clubs"><td>{{item.clubName}}</td><td>{{item.mainContact.contactName}}</td><td>{{item.mainContact.contactEmail}}</td></tr>
+      <tr v-for="item in clubs"><td>{{item.clubName}}</td><td>{{item.mainContact.contactName}}</td><td>{{item.mainContact.contactEmail}}</td><td>{{item.applicationStatus}}</td></tr>
       </tbody>
     </table>
 

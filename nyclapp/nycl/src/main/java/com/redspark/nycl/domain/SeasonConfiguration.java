@@ -105,9 +105,9 @@ public class SeasonConfiguration {
       private AgeGroup ageGroup;
       private List<Team> divisionTeams = new ArrayList<>();
 
-      public DivisionConfiguration(int divNum, boolean homeAndAway, AgeGroup ageGroup, Team... teams) {
+      public DivisionConfiguration(int divNum, boolean homeAndAway, AgeGroup ageGroup, List<Team> teams) {
 
-        this.divisionTeams.addAll(Arrays.asList(teams));
+        this.divisionTeams.addAll(teams);
         this.divisionNumber = divNum;
         this.homeAndAway = homeAndAway;
         this.ageGroup = ageGroup;

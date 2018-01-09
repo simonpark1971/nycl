@@ -3,12 +3,20 @@
 
     <img src="../assets/nyclogo4.jpg" class="img-circle" />
 
-    <table id="leagueTable" class="table table-bordered">
-      <thead>
-      <tr><th>League</th><th>View</th><th>Delete</th><th>Rank</th></tr>
-      </thead>
-      <tbody id="clubTableBody"></tbody>
-    </table>
+
+    <div v-for="division in league.leagueConfig.divisions">
+      <table id="leagueTable" class="table table-bordered">
+        <thead>
+        <tr><th>Club</th><th>Team</th></tr>
+        </thead>
+        <tbody id="clubTableBody">
+          <tr v-for="team in division.divisionTeams">
+            <td>{{team.clubName}}</td>
+            <td>{{team.teamName}}</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
 
     <br/>
 
@@ -48,12 +56,27 @@
 </template>
 
 <script>
-export default {
-  name: 'League',
-  data () {
-    return {
+  import axios from 'axios'
+  export default {
+    name: 'League',
+    data () {
+      return {
+        league: null
+      }
+    },
+    created () {
+      // fetch the data when the view is created and the data is
+      // already being observed
+      this.fetchData()
+    },
+    methods: {
+      fetchData () {
+        var self = this
+        axios.get('http://localhost:8081/getleague?league=' + this.$route.params.leagueId).then(function (response) {
+          self.league = response.data
+        })
+      }
     }
-  }
 }
 </script>
 

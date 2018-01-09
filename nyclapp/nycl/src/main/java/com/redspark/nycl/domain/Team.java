@@ -22,6 +22,14 @@ public class Team {
   private static final Calendar CALENDAR = new GregorianCalendar();
   public static final Logger LOGGER = LoggerFactory.getLogger(Team.class);
 
+  public String getId() {
+    return id;
+  }
+
+  public void setId(String id) {
+    this.id = id;
+  }
+
   @Id @GeneratedValue(generator="system-uuid")
   @GenericGenerator(name="system-uuid", strategy = "uuid")
   private String id;

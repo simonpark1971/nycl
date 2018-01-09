@@ -1,4 +1,4 @@
-/Users/simonpark/nyclapp/nycl/src/test/java/com/redspark/nycl/service/impl/MongoDBSeasonConfigurationServiceTest.java
-/Users/simonpark/nyclapp/nycl/src/test/java/com/redspark/nycl/persistence/MongoDBClubRepoTest.java
-/Users/simonpark/nyclapp/nycl/src/test/java/com/redspark/nycl/domain/SeasonConfigurationTest.java
-/Users/simonpark/nyclapp/nycl/src/test/java/com/redspark/nycl/persistence/MongoDBSeasonConfigurationRepoTest.java
+/Users/simonpark/nycl/nyclapp/nycl/src/test/java/com/redspark/nycl/domain/SeasonConfigurationTest.java
+/Users/simonpark/nycl/nyclapp/nycl/src/test/java/com/redspark/nycl/persistence/MongoDBSeasonConfigurationRepoTest.java
+/Users/simonpark/nycl/nyclapp/nycl/src/test/java/com/redspark/nycl/service/impl/MongoDBSeasonConfigurationServiceTest.java
+/Users/simonpark/nycl/nyclapp/nycl/src/test/java/com/redspark/nycl/persistence/MongoDBClubRepoTest.java
