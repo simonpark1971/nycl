@@ -2,7 +2,9 @@ package com.redspark.nycl;
 
 import com.google.gson.Gson;
 import com.redspark.nycl.domain.*;
+import com.redspark.nycl.persistence.PostgresqlTeamRepository;
 import com.redspark.nycl.service.ClubService;
+import com.redspark.nycl.service.SeasonConfigurationService;
 import org.apache.commons.cli.CommandLine;
 import org.apache.commons.cli.CommandLineParser;
 import org.apache.commons.cli.DefaultParser;
@@ -15,6 +17,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.io.FileWriter;
 import java.io.IOException;
@@ -25,15 +28,15 @@ import java.util.*;
 @SpringBootApplication
 public class FixtureGenerator implements CommandLineRunner {
 
-  public static final SimpleDateFormat DATE_FORMAT = new SimpleDateFormat("dd MM yyyy");
+
   public static final Calendar CURRENT_CALENDAR = new GregorianCalendar();
   private static final Logger LOGGER = LoggerFactory.getLogger(FixtureGenerator.class);
-  public static Map<NYCL_CLUB, Club> CLUB_MAP = new HashMap<>();
-
-  public static Map<NYCL_CLUB, Team> missingTeams = new HashMap<>();
 
   @Autowired
   private ClubService clubService;
+
+  @Autowired
+  private SeasonConfigurationService seasonConfigurationService;
 
   public static void main(String[] args) {
     SpringApplication.run(FixtureGenerator.class, args);
@@ -64,41 +67,10 @@ public class FixtureGenerator implements CommandLineRunner {
   }
 
   @Override
+  @Transactional
   public void run(String [] args) throws Exception {
 
-    Options options = new Options();
-    options.addOption("s", "startDate", true, "Season start date");
-    options.addOption("e", "endDate", true, "Season end date");
 
-    CommandLineParser parser = new DefaultParser();
-    CommandLine cmd = parser.parse( options, args);
-
-
-    Date startDate = null, endDate = null;
-    if (cmd.hasOption("s") && cmd.hasOption("e")) {
-      try {
-        startDate = DATE_FORMAT.parse(cmd.getOptionValue("s"));
-        endDate = DATE_FORMAT.parse(cmd.getOptionValue("e"));
-      } catch (ParseException e) {
-        e.printStackTrace();
-      }
-
-      Season currentSeason = new Season(startDate, endDate);
-
-
-      List<Club> clubs = clubService.getClubList();
-
-
-      Gson gson = new Gson();
-      LOGGER.info(gson.toJson(currentSeason));
-
-      currentSeason.setFixtureDates();
-
-      currentSeason.validateAllFixtures();
-//
-      List<Fixture> unallocatedFixtures = currentSeason.getUnallocatedFixtures();
-      LOGGER.warn("Still : " + unallocatedFixtures.size() + " unallocated");
-    }
 //
 //        writeToCSV(fl.getListOfFixtures(), "2017-Master-Fixtures");
 //        writeToCSV(fl.getListOfFixtures().stream().filter(f->f.getAwayTeam().getAgeGroup().equals(AgeGroup.Under10)).collect(Collectors.toSet()), "2017-U10-Fixtures");
@@ -116,5 +88,4 @@ public class FixtureGenerator implements CommandLineRunner {
 //                 || f.getAwayTeam().getClub().clubName.equals(club.clubName)).collect(Collectors.toSet()), "2017-"+club.clubName+"-Fixtures");
 //        }
   }
-
 }

@@ -1,4 +1,3 @@
-/Users/simonpark/nycl/nyclapp/nycl/src/main/java/com/redspark/nycl/persistence/SeasonConfigurationRepository.java
 /Users/simonpark/nycl/nyclapp/nycl/src/main/java/com/redspark/nycl/domain/Constants.java
 /Users/simonpark/nycl/nyclapp/nycl/src/main/java/com/redspark/nycl/service/impl/mogodb/MongoDBClubService.java
 /Users/simonpark/nycl/nyclapp/nycl/src/main/java/com/redspark/nycl/domain/FixtureManager.java
@@ -7,7 +6,6 @@
 /Users/simonpark/nycl/nyclapp/nycl/src/main/java/com/redspark/nycl/domain/Week.java
 /Users/simonpark/nycl/nyclapp/nycl/src/main/java/com/redspark/nycl/SecurityController.java
 /Users/simonpark/nycl/nyclapp/nycl/src/main/java/com/redspark/nycl/domain/Contact.java
-/Users/simonpark/nycl/nyclapp/nycl/src/main/java/com/redspark/nycl/service/impl/mogodb/MongoDBSeasonConfigurationService.java
 /Users/simonpark/nycl/nyclapp/nycl/src/main/java/com/redspark/nycl/domain/Fixture.java
 /Users/simonpark/nycl/nyclapp/nycl/src/main/java/com/redspark/nycl/domain/WeekBuilder.java
 /Users/simonpark/nycl/nyclapp/nycl/src/main/java/com/redspark/nycl/domain/League.java
@@ -17,9 +15,12 @@
 /Users/simonpark/nycl/nyclapp/nycl/src/main/java/com/redspark/nycl/domain/NYCL_CLUB.java
 /Users/simonpark/nycl/nyclapp/nycl/src/main/java/com/redspark/nycl/FixtureGenerator.java
 /Users/simonpark/nycl/nyclapp/nycl/src/main/java/com/redspark/nycl/util/DateUtil.java
+/Users/simonpark/nycl/nyclapp/nycl/src/main/java/com/redspark/nycl/persistence/PostgresqlSeasonConfigurationRepository.java
 /Users/simonpark/nycl/nyclapp/nycl/src/main/java/com/redspark/nycl/domain/SeasonConfiguration.java
 /Users/simonpark/nycl/nyclapp/nycl/src/main/java/com/redspark/nycl/util/DomainUtil.java
+/Users/simonpark/nycl/nyclapp/nycl/src/main/java/com/redspark/nycl/AdminController.java
 /Users/simonpark/nycl/nyclapp/nycl/src/main/java/com/redspark/nycl/domain/Season.java
+/Users/simonpark/nycl/nyclapp/nycl/src/main/java/com/redspark/nycl/service/impl/postgresql/PostgresqlSeasonConfigurationService.java
 /Users/simonpark/nycl/nyclapp/nycl/src/main/java/com/redspark/nycl/domain/AgeGroup.java
 /Users/simonpark/nycl/nyclapp/nycl/src/main/java/com/redspark/nycl/WebApplication.java
 /Users/simonpark/nycl/nyclapp/nycl/src/main/java/com/redspark/nycl/ApplicationFormController.java

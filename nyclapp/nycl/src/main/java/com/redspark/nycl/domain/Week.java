@@ -1,6 +1,7 @@
 package com.redspark.nycl.domain;
 
 import com.redspark.nycl.FixtureGenerator;
+import com.redspark.nycl.service.impl.postgresql.PostgresqlSeasonConfigurationService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -47,7 +48,10 @@ public class Week {
     }
 
     public String toString() {
-        return "com.nycl.domain.Week " + weekNumber + " starts on " + FixtureGenerator.DATE_FORMAT.format(start) + " and ends on " + FixtureGenerator.DATE_FORMAT.format(end);
+        return "com.nycl.domain.Week " + weekNumber + " starts on "
+          + PostgresqlSeasonConfigurationService.DATE_FORMAT.format(start)
+          + " and ends on "
+          + PostgresqlSeasonConfigurationService.DATE_FORMAT.format(end);
     }
 
     public List<Date> getDates() {

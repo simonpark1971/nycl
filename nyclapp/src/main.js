@@ -11,9 +11,10 @@ import RegisterClub from './components/RegisterClub'
 import LoginForm from './components/Login'
 import LeagueList from './components/LeagueList'
 import TeamList from './components/TeamList'
-import League from './components/League'
+import Cups from './components/Cups'
 import ViewClubs from './components/ViewClubs'
 import CompleteApplication from './components/CompleteApplication'
+import SeasonConfiguration from './components/SeasonConfiguration'
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
 import Vuex from 'vuex'
@@ -44,7 +45,9 @@ const routes = [
 
   { path: '/LeagueList', component: LeagueList, meta: {requiresLogin: true} },
 
-  { path: '/League', name: 'league', component: League, meta: {requiresLogin: true} },
+  { path: '/Cups', name: 'cups', component: Cups, meta: {requiresLogin: true} },
+
+  { path: '/Configuration', name: 'config', component: SeasonConfiguration, meta: {requiresLogin: true} },
 
   { path: '/LoginForm', component: LoginForm, name: 'login' },
 

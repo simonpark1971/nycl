@@ -1,10 +1,12 @@
 package com.redspark.nycl.service;
 
 import com.redspark.nycl.domain.AgeGroup;
+import com.redspark.nycl.domain.Fixture;
 import com.redspark.nycl.domain.League;
-import com.redspark.nycl.domain.SeasonConfiguration;
+import com.redspark.nycl.domain.Season;
 
 import java.util.List;
+import java.util.Map;
 
 public interface SeasonConfigurationService {
 
@@ -12,7 +14,13 @@ public interface SeasonConfigurationService {
 
   List<League> getLeagues(String season);
 
-  SeasonConfiguration createSeason(String seasonTag);
+  Season createSeason(String seasonTag);
 
-  void removeAllCurrentSeasons();
+  Map getCupEntries(String year);
+
+  Season get(String s);
+
+  void saveSeason(String seasonYear, Season season);
+
+  List<Fixture> generateFixtures(String seasonTag);
 }

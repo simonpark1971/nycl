@@ -1,4 +1,2 @@
-com/redspark/nycl/service/impl/MongoDBSeasonConfigurationServiceTest.class
-com/redspark/nycl/persistence/MongoDBSeasonConfigurationRepoTest.class
 com/redspark/nycl/domain/SeasonConfigurationTest.class
 com/redspark/nycl/persistence/MongoDBClubRepoTest.class

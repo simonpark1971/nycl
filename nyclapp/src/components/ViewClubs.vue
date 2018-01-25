@@ -12,10 +12,16 @@
         <th>Main Contact</th>
         <th>Main Contact Email</th>
         <th>Status</th>
+        <th>Fee</th>
       </tr>
       </thead>
       <tbody>
-      <tr v-for="item in clubs"><td>{{item.clubName}}</td><td>{{item.mainContact.contactName}}</td><td>{{item.mainContact.contactEmail}}</td><td>{{item.applicationStatus}}</td></tr>
+      <tr v-for="item in clubs">
+        <td>{{item.clubName}}</td>
+        <td>{{item.mainContact.contactName}}</td>
+        <td>{{item.mainContact.contactEmail}}</td>
+        <td>{{item.applicationStatus}}</td>
+        <td>£{{getRegistrationFee(item) + getCupFee(item)}}</td></tr>
       </tbody>
     </table>
 
@@ -39,6 +45,19 @@
       axios.get('http://localhost:8081/getclubs').then(function (response) {
         self.clubs = response.data
       })
+    },
+
+    methods: {
+      getRegistrationFee (club) {
+        return club.clubTeams.length * 15
+      },
+      getCupFee (club) {
+        var fee = 0
+        club.enterU11Cup ? fee += 5 : fee += 0
+        club.enterU12Cup ? fee += 5 : fee += 0
+        club.enterU14Cup ? fee += 5 : fee += 0
+        return fee
+      }
     }
   }
 </script>

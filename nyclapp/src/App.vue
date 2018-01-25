@@ -44,7 +44,11 @@
           </b-nav>
 
           <b-nav is-nav-bar v-if="leagueAdmin">
-            <b-nav-item><router-link v-bind:to="'/League'">League</router-link></b-nav-item>
+            <b-nav-item><router-link v-bind:to="'/Cups'">Cups</router-link></b-nav-item>
+          </b-nav>
+
+          <b-nav is-nav-bar v-if="leagueAdmin">
+            <b-nav-item><router-link v-bind:to="'/Configuration'">Configure Season</router-link></b-nav-item>
           </b-nav>
 
           <b-nav is-nav-bar v-if="!isLoggedIn">

@@ -9,4 +9,5 @@ import java.util.List;
 public interface PostgresqlSeasonConfigurationRepository extends CrudRepository<Team, String> {
 
   List<Team> findTeamsByAgeGroupEquals(AgeGroup ageGroup);
+
 }
