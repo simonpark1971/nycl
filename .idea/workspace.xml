@@ -2,163 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0fa52509-fc72-42b9-895e-a25fe90dabbd" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/nycl-server/src/main/java/com/redspark/nycl/domain/Fixture.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nycl-server/src/main/java/com/redspark/nycl/domain/League.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nycl-server/src/test/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nycl-ui/nycl-ui.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/npm-debug.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nyclapp/.babelrc" beforeDir="false" afterPath="$PROJECT_DIR$/nycl-ui/.babelrc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nyclapp/.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/nycl-ui/.editorconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nyclapp/.eslintignore" beforeDir="false" afterPath="$PROJECT_DIR$/nycl-ui/.eslintignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nyclapp/.eslintrc.js" beforeDir="false" afterPath="$PROJECT_DIR$/nycl-ui/.eslintrc.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nyclapp/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/nycl-ui/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nyclapp/.postcssrc.js" beforeDir="false" afterPath="$PROJECT_DIR$/nycl-ui/.postcssrc.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nyclapp/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/nycl-ui/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nyclapp/build/build.js" beforeDir="false" afterPath="$PROJECT_DIR$/nycl-ui/build/build.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nyclapp/build/check-versions.js" beforeDir="false" afterPath="$PROJECT_DIR$/nycl-ui/build/check-versions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nyclapp/build/dev-client.js" beforeDir="false" afterPath="$PROJECT_DIR$/nycl-ui/build/dev-client.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nyclapp/build/dev-server.js" beforeDir="false" afterPath="$PROJECT_DIR$/nycl-ui/build/dev-server.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nyclapp/build/utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/nycl-ui/build/utils.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nyclapp/build/vue-loader.conf.js" beforeDir="false" afterPath="$PROJECT_DIR$/nycl-ui/build/vue-loader.conf.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nyclapp/build/webpack.base.conf.js" beforeDir="false" afterPath="$PROJECT_DIR$/nycl-ui/build/webpack.base.conf.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nyclapp/build/webpack.dev.conf.js" beforeDir="false" afterPath="$PROJECT_DIR$/nycl-ui/build/webpack.dev.conf.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nyclapp/build/webpack.prod.conf.js" beforeDir="false" afterPath="$PROJECT_DIR$/nycl-ui/build/webpack.prod.conf.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nyclapp/build/webpack.test.conf.js" beforeDir="false" afterPath="$PROJECT_DIR$/nycl-ui/build/webpack.test.conf.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nyclapp/config/dev.env.js" beforeDir="false" afterPath="$PROJECT_DIR$/nycl-ui/config/dev.env.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nyclapp/config/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/nycl-ui/config/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nyclapp/config/prod.env.js" beforeDir="false" afterPath="$PROJECT_DIR$/nycl-ui/config/prod.env.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nyclapp/config/test.env.js" beforeDir="false" afterPath="$PROJECT_DIR$/nycl-ui/config/test.env.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nyclapp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/nycl-ui/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nyclapp/nycl/ec2-user@ec2-52-50-161-226.eu-west-1.compute.amazonaws.com" beforeDir="false" afterPath="$PROJECT_DIR$/ec2-user@ec2-52-50-161-226.eu-west-1.compute.amazonaws.com" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nyclapp/nycl/nycl.iml" beforeDir="false" afterPath="$PROJECT_DIR$/nycl.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nyclapp/nycl/nycl.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nyclapp/nycl/nycl.war" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nyclapp/nycl/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/nycl-server/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nyclapp/nycl/src/main/java/com/redspark/nycl/AdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/nycl-server/src/main/java/com/redspark/nycl/AdminController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nyclapp/nycl/src/main/java/com/redspark/nycl/ApplicationFormController.java" beforeDir="false" afterPath="$PROJECT_DIR$/nycl-server/src/main/java/com/redspark/nycl/ApplicationFormController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nyclapp/nycl/src/main/java/com/redspark/nycl/ClubController.java" beforeDir="false" afterPath="$PROJECT_DIR$/nycl-server/src/main/java/com/redspark/nycl/ClubController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nyclapp/nycl/src/main/java/com/redspark/nycl/FixtureGenerator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nyclapp/nycl/src/main/java/com/redspark/nycl/SecurityController.java" beforeDir="false" afterPath="$PROJECT_DIR$/nycl-server/src/main/java/com/redspark/nycl/SecurityController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nyclapp/nycl/src/main/java/com/redspark/nycl/WebApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/nycl-server/src/main/java/com/redspark/nycl/WebApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nyclapp/nycl/src/main/java/com/redspark/nycl/domain/AgeGroup.java" beforeDir="false" afterPath="$PROJECT_DIR$/nycl-server/src/main/java/com/redspark/nycl/domain/AgeGroup.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nyclapp/nycl/src/main/java/com/redspark/nycl/domain/Club.java" beforeDir="false" afterPath="$PROJECT_DIR$/nycl-server/src/main/java/com/redspark/nycl/domain/Club.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nyclapp/nycl/src/main/java/com/redspark/nycl/domain/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/nycl-server/src/main/java/com/redspark/nycl/domain/Constants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nyclapp/nycl/src/main/java/com/redspark/nycl/domain/Contact.java" beforeDir="false" afterPath="$PROJECT_DIR$/nycl-server/src/main/java/com/redspark/nycl/domain/Contact.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nyclapp/nycl/src/main/java/com/redspark/nycl/domain/CupCompetition.java" beforeDir="false" afterPath="$PROJECT_DIR$/nycl-server/src/main/java/com/redspark/nycl/domain/CupCompetition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nyclapp/nycl/src/main/java/com/redspark/nycl/domain/DivisionConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/nycl-server/src/main/java/com/redspark/nycl/domain/DivisionConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nyclapp/nycl/src/main/java/com/redspark/nycl/domain/Fixture.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nyclapp/nycl/src/main/java/com/redspark/nycl/domain/FixtureManager.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nyclapp/nycl/src/main/java/com/redspark/nycl/domain/League.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nyclapp/nycl/src/main/java/com/redspark/nycl/domain/LeagueConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/nycl-server/src/main/java/com/redspark/nycl/domain/LeagueConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nyclapp/nycl/src/main/java/com/redspark/nycl/domain/NYCL_CLUB.java" beforeDir="false" afterPath="$PROJECT_DIR$/nycl-server/src/main/java/com/redspark/nycl/domain/NYCL_CLUB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nyclapp/nycl/src/main/java/com/redspark/nycl/domain/Season.java" beforeDir="false" afterPath="$PROJECT_DIR$/nycl-server/src/main/java/com/redspark/nycl/domain/Season.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nyclapp/nycl/src/main/java/com/redspark/nycl/domain/SeasonConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/nycl-server/src/main/java/com/redspark/nycl/domain/SeasonConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nyclapp/nycl/src/main/java/com/redspark/nycl/domain/Team.java" beforeDir="false" afterPath="$PROJECT_DIR$/nycl-server/src/main/java/com/redspark/nycl/domain/Team.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nyclapp/nycl/src/main/java/com/redspark/nycl/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/nycl-server/src/main/java/com/redspark/nycl/domain/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nyclapp/nycl/src/main/java/com/redspark/nycl/domain/Week.java" beforeDir="false" afterPath="$PROJECT_DIR$/nycl-server/src/main/java/com/redspark/nycl/domain/Week.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nyclapp/nycl/src/main/java/com/redspark/nycl/domain/WeekBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/nycl-server/src/main/java/com/redspark/nycl/domain/WeekBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nyclapp/nycl/src/main/java/com/redspark/nycl/persistence/MongoClubRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/nycl-server/src/main/java/com/redspark/nycl/persistence/MongoClubRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nyclapp/nycl/src/main/java/com/redspark/nycl/persistence/PostgresqlClubRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/nycl-server/src/main/java/com/redspark/nycl/persistence/PostgresqlClubRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nyclapp/nycl/src/main/java/com/redspark/nycl/persistence/PostgresqlSeasonConfigurationRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/nycl-server/src/main/java/com/redspark/nycl/persistence/PostgresqlSeasonConfigurationRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nyclapp/nycl/src/main/java/com/redspark/nycl/persistence/PostgresqlSeasonRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/nycl-server/src/main/java/com/redspark/nycl/persistence/PostgresqlSeasonRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nyclapp/nycl/src/main/java/com/redspark/nycl/persistence/PostgresqlTeamRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/nycl-server/src/main/java/com/redspark/nycl/persistence/PostgresqlTeamRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nyclapp/nycl/src/main/java/com/redspark/nycl/persistence/Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/nycl-server/src/main/java/com/redspark/nycl/persistence/Util.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nyclapp/nycl/src/main/java/com/redspark/nycl/service/ClubService.java" beforeDir="false" afterPath="$PROJECT_DIR$/nycl-server/src/main/java/com/redspark/nycl/service/ClubService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nyclapp/nycl/src/main/java/com/redspark/nycl/service/SeasonConfigurationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/nycl-server/src/main/java/com/redspark/nycl/service/SeasonConfigurationService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nyclapp/nycl/src/main/java/com/redspark/nycl/service/impl/mogodb/MongoDBClubService.java" beforeDir="false" afterPath="$PROJECT_DIR$/nycl-server/src/main/java/com/redspark/nycl/service/impl/mogodb/MongoDBClubService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nyclapp/nycl/src/main/java/com/redspark/nycl/service/impl/postgresql/PostgresqlClubService.java" beforeDir="false" afterPath="$PROJECT_DIR$/nycl-server/src/main/java/com/redspark/nycl/service/impl/postgresql/PostgresqlClubService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nyclapp/nycl/src/main/java/com/redspark/nycl/service/impl/postgresql/PostgresqlSeasonConfigurationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/nycl-server/src/main/java/com/redspark/nycl/service/impl/postgresql/PostgresqlSeasonConfigurationService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nyclapp/nycl/src/main/java/com/redspark/nycl/util/DateUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/nycl-server/src/main/java/com/redspark/nycl/util/DateUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nyclapp/nycl/src/main/java/com/redspark/nycl/util/DomainUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/nycl-server/src/main/java/com/redspark/nycl/util/DomainUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nyclapp/nycl/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/nycl-server/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nyclapp/nycl/src/main/resources/shiro-users.properties" beforeDir="false" afterPath="$PROJECT_DIR$/nycl-server/src/main/resources/shiro-users.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nyclapp/nycl/src/main/resources/shiro.ini" beforeDir="false" afterPath="$PROJECT_DIR$/nycl-server/src/main/resources/shiro.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nyclapp/nycl/src/test/java/com/redspark/nycl/domain/SeasonConfigurationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/nycl-server/src/test/java/com/redspark/nycl/domain/SeasonConfigurationTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nyclapp/nycl/src/test/java/com/redspark/nycl/persistence/MongoDBClubRepoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/nycl-server/src/test/java/com/redspark/nycl/persistence/MongoDBClubRepoTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nyclapp/nycl/src/test/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nyclapp/nycl/target/classes/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nyclapp/nycl/target/classes/com/redspark/nycl/AdminController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nyclapp/nycl/target/classes/com/redspark/nycl/ApplicationFormController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nyclapp/nycl/target/classes/com/redspark/nycl/ClubController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nyclapp/nycl/target/classes/com/redspark/nycl/FixtureGenerator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nyclapp/nycl/target/classes/com/redspark/nycl/SecurityController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nyclapp/nycl/target/classes/com/redspark/nycl/WebApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nyclapp/nycl/target/classes/com/redspark/nycl/domain/AgeGroup.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nyclapp/nycl/target/classes/com/redspark/nycl/domain/Club$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nyclapp/nycl/target/classes/com/redspark/nycl/domain/Club$FixtureRule.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nyclapp/nycl/target/classes/com/redspark/nycl/domain/Club.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nyclapp/nycl/target/classes/com/redspark/nycl/domain/Constants.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nyclapp/nycl/target/classes/com/redspark/nycl/domain/Contact$ContactType.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nyclapp/nycl/target/classes/com/redspark/nycl/domain/Contact.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nyclapp/nycl/target/classes/com/redspark/nycl/domain/CupCompetition.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nyclapp/nycl/target/classes/com/redspark/nycl/domain/DivisionConfiguration.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nyclapp/nycl/target/classes/com/redspark/nycl/domain/Fixture.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nyclapp/nycl/target/classes/com/redspark/nycl/domain/FixtureManager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nyclapp/nycl/target/classes/com/redspark/nycl/domain/League$Division.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nyclapp/nycl/target/classes/com/redspark/nycl/domain/League.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nyclapp/nycl/target/classes/com/redspark/nycl/domain/LeagueConfiguration.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nyclapp/nycl/target/classes/com/redspark/nycl/domain/NYCL_CLUB.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nyclapp/nycl/target/classes/com/redspark/nycl/domain/Season.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nyclapp/nycl/target/classes/com/redspark/nycl/domain/SeasonConfiguration.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nyclapp/nycl/target/classes/com/redspark/nycl/domain/Team$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nyclapp/nycl/target/classes/com/redspark/nycl/domain/Team.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nyclapp/nycl/target/classes/com/redspark/nycl/domain/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nyclapp/nycl/target/classes/com/redspark/nycl/domain/Week.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nyclapp/nycl/target/classes/com/redspark/nycl/domain/WeekBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nyclapp/nycl/target/classes/com/redspark/nycl/persistence/MongoClubRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nyclapp/nycl/target/classes/com/redspark/nycl/persistence/PostgresqlClubRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nyclapp/nycl/target/classes/com/redspark/nycl/persistence/PostgresqlSeasonConfigurationRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nyclapp/nycl/target/classes/com/redspark/nycl/persistence/PostgresqlSeasonRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nyclapp/nycl/target/classes/com/redspark/nycl/persistence/PostgresqlTeamRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nyclapp/nycl/target/classes/com/redspark/nycl/persistence/Util.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nyclapp/nycl/target/classes/com/redspark/nycl/service/ClubService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nyclapp/nycl/target/classes/com/redspark/nycl/service/SeasonConfigurationService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nyclapp/nycl/target/classes/com/redspark/nycl/service/impl/mogodb/MongoDBClubService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nyclapp/nycl/target/classes/com/redspark/nycl/service/impl/postgresql/PostgresqlClubService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nyclapp/nycl/target/classes/com/redspark/nycl/service/impl/postgresql/PostgresqlSeasonConfigurationService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nyclapp/nycl/target/classes/com/redspark/nycl/util/DateUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nyclapp/nycl/target/classes/com/redspark/nycl/util/DomainUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nyclapp/nycl/target/classes/shiro-users.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nyclapp/nycl/target/classes/shiro.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nyclapp/nycl/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nyclapp/nycl/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nyclapp/nycl/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nyclapp/nycl/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nyclapp/nycl/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nyclapp/nycl/target/nycl-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nyclapp/nycl/target/nycl-1.0-SNAPSHOT.jar.original" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nyclapp/nycl/target/test-classes/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nyclapp/nycl/target/test-classes/com/redspark/nycl/domain/SeasonConfigurationTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nyclapp/nycl/target/test-classes/com/redspark/nycl/persistence/MongoDBClubRepoTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nyclapp/nyclapp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/nycl-ui/nyclapp.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nyclapp/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/nycl-ui/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nyclapp/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/nycl-ui/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nyclapp/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/nycl-ui/src/App.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nyclapp/src/assets/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/nycl-ui/src/assets/logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nyclapp/src/assets/nyclogo4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nyclapp/src/components/About.Vue" beforeDir="false" afterPath="$PROJECT_DIR$/nycl-ui/src/components/About.Vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nyclapp/src/components/AddTeamForm.vue" beforeDir="false" afterPath="$PROJECT_DIR$/nycl-ui/src/components/AddTeamForm.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nyclapp/src/components/ApplicationForm.vue" beforeDir="false" afterPath="$PROJECT_DIR$/nycl-ui/src/components/ApplicationForm.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nyclapp/src/components/CompleteApplication.vue" beforeDir="false" afterPath="$PROJECT_DIR$/nycl-ui/src/components/CompleteApplication.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nyclapp/src/components/CupEntries.vue" beforeDir="false" afterPath="$PROJECT_DIR$/nycl-ui/src/components/CupEntries.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nyclapp/src/components/Cups.vue" beforeDir="false" afterPath="$PROJECT_DIR$/nycl-ui/src/components/Cups.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nyclapp/src/components/LeagueList.vue" beforeDir="false" afterPath="$PROJECT_DIR$/nycl-ui/src/components/LeagueList.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nyclapp/src/components/Login.vue" beforeDir="false" afterPath="$PROJECT_DIR$/nycl-ui/src/components/Login.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nyclapp/src/components/RegisterClub.vue" beforeDir="false" afterPath="$PROJECT_DIR$/nycl-ui/src/components/RegisterClub.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nyclapp/src/components/SeasonConfiguration.vue" beforeDir="false" afterPath="$PROJECT_DIR$/nycl-ui/src/components/SeasonConfiguration.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nyclapp/src/components/TeamList.vue" beforeDir="false" afterPath="$PROJECT_DIR$/nycl-ui/src/components/TeamList.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nyclapp/src/components/ViewClubs.vue" beforeDir="false" afterPath="$PROJECT_DIR$/nycl-ui/src/components/ViewClubs.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nyclapp/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/nycl-ui/src/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nyclapp/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/nycl-ui/src/router/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nyclapp/static/.gitkeep" beforeDir="false" afterPath="$PROJECT_DIR$/nycl-ui/static/.gitkeep" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nyclapp/test/e2e/custom-assertions/elementCount.js" beforeDir="false" afterPath="$PROJECT_DIR$/nycl-ui/test/e2e/custom-assertions/elementCount.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nyclapp/test/e2e/nightwatch.conf.js" beforeDir="false" afterPath="$PROJECT_DIR$/nycl-ui/test/e2e/nightwatch.conf.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nyclapp/test/e2e/runner.js" beforeDir="false" afterPath="$PROJECT_DIR$/nycl-ui/test/e2e/runner.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nyclapp/test/e2e/specs/test.js" beforeDir="false" afterPath="$PROJECT_DIR$/nycl-ui/test/e2e/specs/test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nyclapp/test/unit/.eslintrc" beforeDir="false" afterPath="$PROJECT_DIR$/nycl-ui/test/unit/.eslintrc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nyclapp/test/unit/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/nycl-ui/test/unit/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nyclapp/test/unit/karma.conf.js" beforeDir="false" afterPath="$PROJECT_DIR$/nycl-ui/test/unit/karma.conf.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nyclapp/test/unit/specs/Hello.spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/nycl-ui/test/unit/specs/Hello.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nycl-server/src/test/resources/integration-test.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nycl-ui/src/assets/nyclogo4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nycl-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/nycl-server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nycl-server/src/test/java/com/redspark/nycl/FixtureGenerationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/nycl-server/src/test/java/com/redspark/nycl/FixtureGenerationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nycl-server/target/surefire-reports/TEST-com.redspark.nycl.FixtureGenerationTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/nycl-server/target/surefire-reports/TEST-com.redspark.nycl.FixtureGenerationTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nycl-server/target/surefire-reports/TEST-com.redspark.nycl.persistence.MongoDBClubRepoTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/nycl-server/target/surefire-reports/TEST-com.redspark.nycl.persistence.MongoDBClubRepoTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nycl-server/target/surefire-reports/com.redspark.nycl.FixtureGenerationTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/nycl-server/target/surefire-reports/com.redspark.nycl.FixtureGenerationTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nycl-server/target/surefire-reports/com.redspark.nycl.domain.SeasonConfigurationTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/nycl-server/target/surefire-reports/com.redspark.nycl.domain.SeasonConfigurationTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nycl-server/target/surefire-reports/com.redspark.nycl.persistence.MongoDBClubRepoTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/nycl-server/target/surefire-reports/com.redspark.nycl.persistence.MongoDBClubRepoTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nycl-server/target/test-classes/com/redspark/nycl/FixtureGenerationTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/nycl-server/target/test-classes/com/redspark/nycl/FixtureGenerationTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/nycl-server/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -174,34 +28,47 @@
     <session id="96037928">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.open.time.17" value="1" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="10" />
+          <entry key="java" value="16" />
           <entry key="log" value="1" />
-          <entry key="xml" value="2" />
+          <entry key="png" value="1" />
+          <entry key="properties" value="2" />
+          <entry key="vue" value="2" />
+          <entry key="xml" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="ANSI Aware" value="1" />
-          <entry key="JAVA" value="10" />
-          <entry key="XML" value="2" />
+          <entry key="Image" value="1" />
+          <entry key="JAVA" value="16" />
+          <entry key="PLAIN_TEXT" value="2" />
+          <entry key="Properties" value="2" />
+          <entry key="XML" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="xml" value="10" />
+          <entry key="java" value="60" />
+          <entry key="properties" value="1" />
+          <entry key="vue" value="10" />
+          <entry key="xml" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="XML" value="10" />
+          <entry key="JAVA" value="60" />
+          <entry key="PLAIN_TEXT" value="10" />
+          <entry key="Properties" value="1" />
+          <entry key="XML" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.spring.boot.run.usages" />
@@ -211,74 +78,96 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/nycl-server/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2244">
-              <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/nycl-server/src/main/java/com/redspark/nycl/ClubController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="25" selection-start-column="8" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/nycl-server/src/test/java/com/redspark/nycl/domain/SeasonConfigurationTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/nycl-server/src/test/java/com/redspark/nycl/persistence/MongoDBClubRepoTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/nycl-server/src/test/java/com/redspark/nycl/FixtureGenerationTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+            <state relative-caret-position="285">
+              <caret line="19" column="61" selection-start-line="19" selection-start-column="61" selection-end-line="19" selection-end-column="61" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/nycl-server/src/main/java/com/redspark/nycl/domain/Club.java">
+        <entry file="file://$PROJECT_DIR$/nycl-server/src/test/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/nycl-server/src/test/resources/integration-test.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+            <state relative-caret-position="120">
+              <caret line="8" column="73" selection-start-line="8" selection-start-column="73" selection-end-line="8" selection-end-column="73" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/nycl-server/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="121">
+              <caret line="189" column="25" selection-start-line="189" selection-start-column="25" selection-end-line="189" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/nycl-server/src/main/java/com/redspark/nycl/AdminController.java">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/nycl-server/src/main/java/com/redspark/nycl/service/SeasonConfigurationService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/nycl-server/src/main/java/com/redspark/nycl/domain/Division.java">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/nycl-server/src/main/java/com/redspark/nycl/service/impl/postgresql/PostgresqlClubService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-test/1.5.2.RELEASE/spring-boot-test-1.5.2.RELEASE-sources.jar!/org/springframework/boot/test/context/SpringBootTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="900">
+              <caret line="92" column="13" selection-start-line="92" selection-start-column="13" selection-end-line="92" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/nycl-server/src/main/java/com/redspark/nycl/service/impl/postgresql/PostgresqlSeasonConfigurationService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1650">
+              <caret line="120" selection-start-line="120" selection-end-line="120" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/internal/runners/model/ReflectiveCallable.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/nycl-server/src/main/java/com/redspark/nycl/domain/Season.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1365">
+              <caret line="105" selection-start-line="105" selection-end-line="105" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -298,11 +187,13 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/nyclapp/nycl/pom.xml" />
-        <option value="$PROJECT_DIR$/nycl-server/pom.xml" />
         <option value="$PROJECT_DIR$/nycl-server/src/main/java/com/redspark/nycl/ClubController.java" />
         <option value="$PROJECT_DIR$/nycl-server/src/test/java/com/redspark/nycl/domain/SeasonConfigurationTest.java" />
         <option value="$PROJECT_DIR$/nycl-server/src/test/java/com/redspark/nycl/persistence/MongoDBClubRepoTest.java" />
+        <option value="$PROJECT_DIR$/nycl-ui/src/components/Fixtures.vue" />
         <option value="$PROJECT_DIR$/nycl-server/src/test/java/com/redspark/nycl/FixtureGenerationTest.java" />
+        <option value="$PROJECT_DIR$/nycl-server/src/test/resources/integration-test.properties" />
+        <option value="$PROJECT_DIR$/nycl-server/pom.xml" />
       </list>
     </option>
   </component>
@@ -331,26 +222,110 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="nycl" type="b2602c69:ProjectViewProjectNode" />
-              <item name="nycl-ui" type="462c0819:PsiDirectoryNode" />
+              <item name="nycl-server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nycl" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nycl-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nycl" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nycl-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nycl" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nycl-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nycl" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nycl-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="nycl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nycl" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nycl-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="nycl" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nycl" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nycl-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="nycl" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nycl" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nycl-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="nycl" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+              <item name="postgresql" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nycl" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nycl-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nycl" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nycl-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nycl" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nycl-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="nycl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nycl" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nycl-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1534248224894" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1534251907351" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="/usr/local/opt/node@6/bin/node" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -361,7 +336,11 @@
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/nycl-server/src/test/resources" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/nycl-ui/src/assets" />
       <recent name="$PROJECT_DIR$/nycl-server" />
       <recent name="$PROJECT_DIR$/nycl-ui" />
       <recent name="$PROJECT_DIR$" />
@@ -379,7 +358,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.FixtureGenerationTest">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -392,8 +371,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="FixtureGenerationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="nycl-server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.redspark.nycl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.redspark.nycl" />
+      <option name="MAIN_CLASS_NAME" value="com.redspark.nycl.FixtureGenerationTest" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WebApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="nycl-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.redspark.nycl.WebApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -413,6 +414,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Spring Boot.WebApplication" />
+      <item itemvalue="JUnit.FixtureGenerationTest" />
+      <item itemvalue="Spring Boot.WebApplication (1)" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.FixtureGenerationTest" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -426,17 +437,46 @@
       <updated>1531820424400</updated>
       <workItem from="1531820432936" duration="741000" />
       <workItem from="1534233395905" duration="3452000" />
-      <workItem from="1534237889841" duration="3726000" />
+      <workItem from="1534237889841" duration="6606000" />
+      <workItem from="1534251605618" duration="285000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="FixtureGenerationTest - 2018.08.14 at 13h 30m 51s.xml">
+      <configuration name="FixtureGenerationTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FixtureGenerationTest - 2018.08.14 at 13h 34m 32s.xml">
+      <configuration name="FixtureGenerationTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FixtureGenerationTest - 2018.08.14 at 13h 37m 08s.xml">
+      <configuration name="FixtureGenerationTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FixtureGenerationTest - 2018.08.14 at 13h 47m 31s.xml">
+      <configuration name="FixtureGenerationTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FixtureGenerationTest - 2018.08.14 at 13h 56m 04s.xml">
+      <configuration name="FixtureGenerationTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FixtureGenerationTest - 2018.08.14 at 13h 57m 39s.xml">
+      <configuration name="FixtureGenerationTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FixtureGenerationTest - 2018.08.14 at 13h 58m 21s.xml">
+      <configuration name="FixtureGenerationTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FixtureGenerationTest - 2018.08.14 at 14h 01m 49s.xml">
+      <configuration name="FixtureGenerationTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FixtureGenerationTest - 2018.08.14 at 14h 05m 23s.xml">
+      <configuration name="FixtureGenerationTest" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7919000" />
+    <option name="totallyTimeSpent" value="11084000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1920" y="29" width="1920" height="1005" extended-state="0" />
     <layout>
-      <window_info id="Web" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27316293" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
@@ -444,12 +484,11 @@
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Spring" />
-      <window_info anchor="bottom" id="Java Enterprise" />
+      <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32952183" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.55613303" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -460,7 +499,9 @@
       <window_info anchor="bottom" id="Version Control" order="11" />
       <window_info anchor="bottom" id="Thumbnails" order="12" visible="true" weight="0.32952183" />
       <window_info anchor="bottom" id="Problems" order="13" />
-      <window_info anchor="right" id="Bean Validation" />
+      <window_info anchor="bottom" id="Spring" order="14" />
+      <window_info anchor="bottom" id="Java Enterprise" order="15" />
+      <window_info anchor="bottom" id="Messages" order="16" weight="0.32952183" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -471,6 +512,7 @@
       <window_info anchor="right" id="Database" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Maven Projects" order="9" />
+      <window_info anchor="right" id="Bean Validation" order="10" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -478,6 +520,18 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/nycl-server/src/test/java/com/redspark/nycl/FixtureGenerationTest.java</url>
+          <line>28</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/nycl-server/src/main/java/com/redspark/nycl/util/DateUtil.java">
@@ -492,9 +546,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/nycl-server/src/main/java/com/redspark/nycl/util/DomainUtil.java">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nycl-ui/src/assets/logo.png">
-      <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/nycl-server/src/main/java/com/redspark/nycl/domain/Club.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -519,7 +570,7 @@
     <entry file="file://$PROJECT_DIR$/nycl-server/src/test/java/com/redspark/nycl/domain/SeasonConfigurationTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
-          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -529,27 +580,96 @@
     <entry file="file://$PROJECT_DIR$/nycl-server/src/test/java/com/redspark/nycl/persistence/MongoDBClubRepoTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
-          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/nycl-server/src/test/java/com/redspark/nycl/FixtureGenerationTest.java">
+    <entry file="file://$PROJECT_DIR$/npm-debug.log" />
+    <entry file="file://$PROJECT_DIR$/nycl-ui/src/components/ViewClubs.vue">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nycl-ui/src/assets/logo.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nycl-ui/src/components/Fixtures.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+        <state relative-caret-position="45">
+          <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/npm-debug.log">
+    <entry file="file://$PROJECT_DIR$/nycl-server/src/test/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nycl-server/src/test/resources/integration-test.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="73" selection-start-line="8" selection-start-column="73" selection-end-line="8" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nycl-server/src/main/java/com/redspark/nycl/service/SeasonConfigurationService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nycl-server/src/main/java/com/redspark/nycl/service/impl/postgresql/PostgresqlClubService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-test/1.5.2.RELEASE/spring-boot-test-1.5.2.RELEASE-sources.jar!/org/springframework/boot/test/context/SpringBootTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="900">
+          <caret line="92" column="13" selection-start-line="92" selection-start-column="13" selection-end-line="92" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nycl-server/src/main/java/com/redspark/nycl/service/impl/postgresql/PostgresqlSeasonConfigurationService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1650">
+          <caret line="120" selection-start-line="120" selection-end-line="120" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/internal/runners/model/ReflectiveCallable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nycl-server/src/main/java/com/redspark/nycl/domain/Season.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1365">
+          <caret line="105" selection-start-line="105" selection-end-line="105" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nycl-server/src/test/java/com/redspark/nycl/FixtureGenerationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="61" selection-start-line="19" selection-start-column="61" selection-end-line="19" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/nycl-server/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2244">
-          <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+        <state relative-caret-position="121">
+          <caret line="189" column="25" selection-start-line="189" selection-start-column="25" selection-end-line="189" selection-end-column="25" />
         </state>
       </provider>
     </entry>

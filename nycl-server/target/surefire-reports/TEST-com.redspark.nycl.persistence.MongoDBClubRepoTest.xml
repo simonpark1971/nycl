@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="4" failures="0" name="com.redspark.nycl.persistence.MongoDBClubRepoTest" time="0.509" errors="0" skipped="0">
+<testsuite tests="4" failures="0" name="com.redspark.nycl.persistence.MongoDBClubRepoTest" time="0.663" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre/lib"/>
@@ -63,7 +63,7 @@
     <property name="sun.cpu.isalist" value=""/>
   </properties>
   <testcase classname="com.redspark.nycl.persistence.MongoDBClubRepoTest" name="removeAllTeamsWorks" time="0.002"/>
-  <testcase classname="com.redspark.nycl.persistence.MongoDBClubRepoTest" name="dedupeWorks" time="0.002"/>
-  <testcase classname="com.redspark.nycl.persistence.MongoDBClubRepoTest" name="getClubList" time="0.503"/>
-  <testcase classname="com.redspark.nycl.persistence.MongoDBClubRepoTest" name="testRegisterNewClub" time="0.002"/>
+  <testcase classname="com.redspark.nycl.persistence.MongoDBClubRepoTest" name="dedupeWorks" time="0.003"/>
+  <testcase classname="com.redspark.nycl.persistence.MongoDBClubRepoTest" name="getClubList" time="0.655"/>
+  <testcase classname="com.redspark.nycl.persistence.MongoDBClubRepoTest" name="testRegisterNewClub" time="0.003"/>
 </testsuite>
