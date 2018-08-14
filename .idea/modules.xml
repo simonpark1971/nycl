@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/nycl-server/nycl-server.iml" filepath="$PROJECT_DIR$/nycl-server/nycl-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/nycl-ui/nycl-ui.iml" filepath="$PROJECT_DIR$/nycl-ui/nycl-ui.iml" />
+    </modules>
+  </component>
+</project>
